@@ -1,0 +1,14 @@
+.navbar {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+  .menu {
+    cursor: pointer;
+  }
+}
