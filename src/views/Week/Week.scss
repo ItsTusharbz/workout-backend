@@ -1,0 +1,33 @@
+.week-container {
+  display: flex;
+  justify-content: center;
+  &-collaps {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-header {
+      display: flex;
+      justify-content: space-between;
+
+      .title {
+        cursor: pointer;
+        width: fit-content;
+      }
+    }
+  }
+  .week-container-days {
+    &.collapsible {
+      width: 1100px;
+      &-body {
+        &.MuiCollapse-wrapperInner {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  .collapsible-header {
+    background-color: rgb(139, 103, 180);
+  }
+}

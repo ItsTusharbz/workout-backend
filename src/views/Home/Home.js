@@ -1,10 +1,14 @@
-import React from 'react';
-import './Home.css';
+import Week from "../Week/Week";
+import "./Home.scss";
+
+const default_className = "home";
+
 
 export default function Home() {
-    return (
-        <div>
-            Home
-        </div>
-    )
+  return (
+    <div className={default_className}>
+      <Week />
+      <Week />
+    </div>
+  );
 }

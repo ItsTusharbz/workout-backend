@@ -1,0 +1,36 @@
+.day-container {
+  margin: 12px 0;
+  justify-content: center;
+  display: flex;
+  &-collaps {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-header {
+      display: flex;
+      justify-content: space-between;
+     
+
+      .title {
+        cursor: pointer;
+        width: fit-content;
+      }
+    }
+  }
+  .workout-container {
+
+    &.collapsible {
+      &-body {
+        height: 500px;
+      }
+      width: 1050px;
+      &-body {
+        width: 100%;
+      }
+    }
+  }
+  .collapsible-header {
+    background-color: rgb(120, 170, 199) !important;
+  }
+}
