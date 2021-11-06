@@ -4,6 +4,7 @@ import theme from "./theme/theme";
 import { ThemeProvider } from "@emotion/react";
 import { BrowserRouter } from "react-router-dom";
 import MainHeader from "./views/Header/MainHeader";
+import { Grid } from "@mui/material";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <BrowserRouter>
         <ThemeProvider theme={theme}>
           <MainHeader></MainHeader>
-          <Routes />
+            <Routes />
         </ThemeProvider>
       </BrowserRouter>
     </div>

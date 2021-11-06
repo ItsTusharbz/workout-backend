@@ -12,6 +12,24 @@ let theme = createTheme({
         },
       },
     },
+    MuiInputLabel: {
+      defaultProps: {
+        shrink: true,
+        variant: "standard",
+      },
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          color: "#FF23F",
+        },
+      },
+    },
+    MuiTextField: {
+      defaultProps: {
+        variant: "standard",
+      },
+    },
   },
 });
 // responsive drawer
