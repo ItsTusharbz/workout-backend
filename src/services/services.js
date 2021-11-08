@@ -7,3 +7,8 @@ export const getAllWorkouts = () => {
 export const saveWorkout = (payload) => {
   return Instance.post("/workout", payload);
 };
+
+export const deleteWorkout = (wid) => {
+  return Instance.delete(`/workout/${wid}`);
+
+};
